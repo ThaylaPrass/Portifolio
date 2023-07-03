@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 50%;
+  height: 500px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 12px;
+
+}
+.informacoes{
+      width: 50%;
+      height: 500px;
+      /* background-color: rgb(90, 5, 202); */
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 12px;
+  
+}
+.informacoes ul li{
+  list-style: none;
+  font-size: 20px;
+
+}
+.informacoes ul{
+  width: 100%;
+
+}
+.informacoes h1{
+  width: 100%;
+  font-size:30px;
+}
+.flex{
+  display: flex;
+}
+.perfil{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color:rgb(7, 183, 183);
+  background-position: center;
+  background-size: cover;
+  border: 4px solid rgb(21, 21, 102);
+}
+.header ul li{
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 5px;
+  border-radius: 8px;
+  transition: 0.5s;
+  cursor: pointer;
+  
+
+}
+.header ul li:hover{
+background-color: rgb(230, 228, 228);
+}
+.header ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.contato {
+  width: 50px;
+  height: 50px;
+    margin-left: 10px;
+  background-position: center;
+  background-size: cover;
+}
+.contatos {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  margin-top: 20px;
+  
+}
+.projetos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 400px;
+  top: 150px;
+  background-color: brown;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+
+}
+.projeto{
+  width: 300px;
+  height: 250px;
+  background-color:rgb(250, 250, 250);
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+}
+.projeto a{
+  width: 300px;
+  border-radius: 8px 8px 0 0;
+  background-color: rgba(255, 255, 255, 0.848);
+  color: black;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+.projetos a:hover{
+  background-color: rgba(0, 0, 0, 0.842);
+  color:white;
+}
+.quemsoueu p{
+  font-size: 20px;
+  width: 90%;
+  margin-left: 5%;
+}
+.contentContato{
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.911);
+  margin-top: 150px;
+}
+.form button{
+  width: 100%;
+}
+.form input{
+  width: 100%;
+  height: 40px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  border: 2px solid black;
+}
+.form input:focus{
+outline: none;
+}
+.form textarea:focus{
+outline: none;
+}
+
+.form textarea{
+padding: 10px 10px;
+width: 100%;
+min-height: 100px;
+max-height: 100px;
+border: 2px solid black;
+font-size: 17px;
+}
+
+.enviar{
+background-color: rgb(30, 94, 190);
+color: white;
+padding: 10px !important;
+height: auto !important;
+font-size: 30px !important;
+cursor: pointer;
+}
+.enviar:hover{
+background-color: rgb(50, 94, 160);
+}
