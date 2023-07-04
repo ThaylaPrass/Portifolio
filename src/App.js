@@ -44,7 +44,7 @@ function App() {
       <div className='projetos'>
         <div className='flex'>
         <div className='quemsoueu'>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quod deserunt omnis consequatur odit unde laudantium asperiores dolor, veritatis ullam, sint animi sed voluptatem dolorem illum magnam quibusdam tempora saepe.</p>
+            <p> <b> Eu tenho 28 anos, estou cursando o primeiro semestre de Análise e Desenvolvimento de Sistemas, atualmente trabalho em uma empresa de confecção de camisetas, onde minha função é à criação gráfica. Meu objetivo é me especializar como designer e aprimorar meu conhecimento em desenvolvimento de sistemas. </b> </p>
         </div>
         
         </div>

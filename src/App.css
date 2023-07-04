@@ -90,14 +90,12 @@ background-color: rgb(230, 228, 228);
   width: 100%;
   height: 400px;
   top: 150px;
-  background-color: brown;
+  background-color: rgb(53, 147, 215);
 }
 .flex {
   display: flex;
   align-items: center;
   gap: 30px;
-
-
 }
 .projeto{
   width: 300px;
@@ -120,9 +118,10 @@ background-color: rgb(230, 228, 228);
   color:white;
 }
 .quemsoueu p{
-  font-size: 20px;
+  font-size: 25px;
   width: 90%;
   margin-left: 5%;
+  text-align: center;
 }
 .contentContato{
   z-index: 999;
